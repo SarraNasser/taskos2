@@ -8,8 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "testing git actions"
-        run: pwd  
+      - name: "before"
+        run: ls
+      - uses: actions/checkout@v3  
 
-      - name: "testing printing"
-        run: echo sarra
+      - name: "after"
+        run: ls

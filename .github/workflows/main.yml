@@ -11,5 +11,5 @@ jobs:
       - name: "testing git actions"
         run: pwd  
 
-      -name: "testing printing"
-       run: echo sarra
+      - name: "testing printing"
+        run: echo sarra
